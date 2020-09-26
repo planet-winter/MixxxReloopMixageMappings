@@ -9,10 +9,10 @@ MixageIE.libraryHideTimer = 0;
 MixageIE.libraryReducedHideTimeout = 500;
 MixageIE.libraryHideTimeout = 4000;
 MixageIE.libraryRemainingTime = 0;
-MixageIE.scratchPressed = false;
+MixageIE.scratchPressed = true;
 MixageIE.scrollPressed = false;
-MixageIE.scratchByWheelTouch = false;
-MixageIE.beatMovePressed = false;
+MixageIE.scratchByWheelTouch = true;
+MixageIE.beatMovePressed = true;
 
 MixageIE.init = function (id, debugging) {
 	MixageIE.connectControlsToFunctions('[Channel1]');
